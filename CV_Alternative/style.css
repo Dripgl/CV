@@ -1,0 +1,186 @@
+body {
+    background: none;
+    color: #000;
+    margin: 0 15%;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/* LOGO SETTINGS */
+.logo {
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    width: 100px;
+    
+}
+
+/* MENU SETTINGS */
+.menu {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.menu-item {
+    font-size: 22px;
+    padding: 10px;
+}
+
+.menu-item a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+/* FOOTER SETTINGS */
+.fot_01 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(21, 33, 255);
+    font-size: 19px;
+    font-weight: 400;
+    padding: 17px;
+    margin-bottom: 15px;
+}
+
+/* HIGHLIGHT BACKGROUND SETTINGS */
+.container {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    box-shadow: 10px 9px 10px rgb(40, 40, 40);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    padding: 10px 65px 13px;
+}
+
+.item_01 {
+    text-align: left;
+    padding-right: 20px;
+    max-width: 60%;
+}
+
+.item_02 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.subitem_01 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.subitem_04 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px;
+}
+
+/* IMAGE SETTINGS */
+.image_1,
+.image_2,
+.image_3,
+.image_4 {
+    width: 150px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* TEXT CERTIFICATE SETTINGS */
+.top,
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    clip-path: polygon(0% 30%, 100% 0%, 100% 48%, 30% 50%);
+}
+.wrapper {
+    background-color: rgb(201, 10, 10);
+    border-radius: 45%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    box-shadow: 10px 9px 10px rgb(40, 40, 40);
+}
+.bottom {
+    clip-path: polygon(40% 40%, 100% 100%, 90% 150%, 0% 100%);
+    background: linear-gradient(177deg, black 53%, #000000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgb(9, 9, 9);
+    transform: translate(-0.02em);
+}
+
+
+/* INIZIO BANNER ROSSO TITOLO PAGINA*/
+
+.sec_01 {
+    display: flex;
+    justify-content: center;
+    background: rgb(229, 28, 6);
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+    box-shadow: 10px 8px 8px #000000;
+}
+
+
+.item_sec {
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0px 10px 0 10px ;
+}
+
+.item_tit {
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.item_tit {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subsec_por {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+/* INIZIO background prova*/
+
+.body_01 {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #background {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(path_to_background_image.jpg) repeat;
+  }
+  
